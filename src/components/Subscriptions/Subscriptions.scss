@@ -1,0 +1,91 @@
+@import "../../assets/scss/Roots.scss";
+
+.subs {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.users {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 70px;
+
+    &__item {
+        margin-bottom: 24px;
+        display: flex;
+    }
+
+    &__item:nth-of-type(1):before {
+        content: '';
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../images/gussie.png);
+    }
+    &__item:nth-of-type(2):before {
+        content: '';
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../images/user2.png);
+    }
+    &__item:nth-of-type(3):before {
+        content: '';
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../images/user3.png);
+    }
+    &__item:nth-of-type(4):before {
+        content: '';
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../images/user4.png);
+    }
+    &__item:nth-of-type(5):before {
+        content: '';
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../images/user5.png);
+    }
+    &__item:nth-of-type(6):before {
+        content: '';
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../../images/user6.png);
+    }
+
+    &__item:last-of-type {
+        margin-bottom: 0;
+    }
+
+    a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #898989;
+        margin-left: 10px;
+    }
+    
+}

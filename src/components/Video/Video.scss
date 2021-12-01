@@ -1,0 +1,42 @@
+@import "../../assets/scss/Roots.scss";
+
+
+.video {
+    margin-right: 40px;
+    margin-left: 13px;
+    
+    &__img {
+        width: 250px;
+        height: 150px;
+        border-radius: 14px;
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #19202C;
+        margin: 0;
+    }
+
+    
+
+    &__view {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #C2C2C2;
+        width: 100px;
+        margin-right: 40px;
+    }
+
+    &__author {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #C2C2C2;
+    }
+}

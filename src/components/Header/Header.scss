@@ -1,0 +1,68 @@
+@import "../../assets/scss/Roots.scss";
+
+.bb {
+    margin-right: 10px;
+}
+
+.header {
+    padding: 8px 23px 8px 30px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 55;
+    display: flex;
+    width: 100vw;
+
+    &__left {
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__form {
+        margin-left: 70px;
+
+        input {
+            display: block;
+            width: 450px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            color: #30384C;
+            mix-blend-mode: normal;
+            background-color: #ebebeb;
+            outline: none;
+            border:  transparent;
+            padding: 6px 15px 6px 45px;
+            border-radius: 22px;
+            background-image: url(../../images/search-icon.png);
+            background-size: 15px;
+            background-repeat: no-repeat;
+            background-position: 420px;
+        }
+
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+}
+
+.camera,
+.setka,
+.notic {
+    margin-right: 35px; 
+}
+
+.cabine::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../images/gussie.png);
+}
